@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgba(41, 41, 197, 0.859);
+    overflow: hidden;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.cont1{
+    width: 100vw;
+    display: flex;
+}
+.logo {
+    display: flex;
+    margin: 1vh 1vw;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+.logo img{
+    width: 13vw;
+}
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 3vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(12, 12, 78);
+}
+.btn{
+    height: 6vh;
+    width: 9vw;
+    margin: 1vh 2vw;
+    background-color: rgb(235, 137, 19);
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    cursor: pointer;
+    font-size: medium;
+}
+.top{
+    margin: 5vh 0;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+.f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+    font-weight: 100;
+    font-size: 2vw;
+}
+.btn2{
+    margin: 6vh 45vw;
+    height: 7vh;
+    width: 10vw;
+    background-color: rgb(235, 137, 19);
+    color: white;
+    font-weight: bold;
+}
+.btn2:hover{
+    cursor: pointer;
+    height: 8vh;
+    width: 11vw;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    width: 50vw;
+    height: 65vh;
+    margin-top: 15vh;
+}
+.cont2{
+    overflow: hidden;
+}
+.p1{
+    width: 100vw;
+}
+.p2{
+    width: 100vw;
+}
+.p3{
+    width: 100vw;
+}
+.p4{
+    width: 100vw;
+}
+.p5{
+    width: 100vw;
+}
+.cont3{
+    height: 70vh;
+    background-image: url("https://www.blogger.com/about/img/sections/millions/millions-map_2x.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 70vh;
+    
+}
+.f{
+    font-size: 3vw;
+    color:rgb(67, 92, 42);
+}
+.fp{
+    margin: 2vh 0;
+    font-weight: 100;
+    font-size: 2vw;
+    color: rgb(168, 42, 42);
+}
+footer{
+    height: auto;
+    background-color: #172337;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+}
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line1 li{
+    list-style: none;
+    padding: 0 2vw;
+    font-size: 2vw;
+}
+.line1 li:hover{
+    cursor: pointer;
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.line2:hover{
+    cursor: pointer;
+}
