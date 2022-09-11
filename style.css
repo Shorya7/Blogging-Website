@@ -52,6 +52,7 @@ nav ul li a:hover{
     background-color: rgb(235, 137, 19);
     color: white;
     font-weight: bold;
+    font_size: 1vw;
 }
 .btn:hover{
     cursor: pointer;
@@ -81,6 +82,7 @@ nav ul li a:hover{
     background-color: rgb(235, 137, 19);
     color: white;
     font-weight: bold;
+    font-size: 1vw;
 }
 .btn2:hover{
     cursor: pointer;
